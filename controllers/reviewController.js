@@ -122,11 +122,13 @@ const remove = async (req, res, next) => {
 
       (review) => review.id !== reviewId
     )
+    
+    const user = await UserModel.findById(req.currentUser.id)
 
-    const updatedproperty = await property.save()
+    const updatedPropertyReview = await property.save()
     return res.status(200).json({
       message: "Comment successfully deleted",
-      updatedReviews: updatedproperty.reviews,
+      updatedReviews: updatedPropertyReview.reviews,
     })
   } catch (error) {
     next(error)
