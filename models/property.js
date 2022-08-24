@@ -8,6 +8,7 @@ export const reviewSchema = new mongoose.Schema({
   rating: Number,
   createdAt: { type: Date, default: Date.now() },
   createdBy: { type: mongoose.Schema.ObjectId, ref: "User", required: true },
+  propertyId: {type: String}
 })
 
 const propertySchema = new mongoose.Schema({

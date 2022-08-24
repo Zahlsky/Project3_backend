@@ -25,6 +25,7 @@ const users = {
         text: "We loved our stay here, this apartment is perfectly located close to Florence, Pisa, Lucca, Pistoia and many other beautiful Tuscan towns and villages. The apartment was comfortable, clean and with all amenities you need. We loved the large swimming pool which was also very clean. Francesco was an excellent host and gave us delicious wine and oil on our arrival. The recommendations for restaurants were excellent. We hope to come back thank you Francesco!],",
         rating: 5,
         createdBy: "0fc2faa7725e24f505da6c3e",
+        
       },
       {
         title: "Wonderful",
