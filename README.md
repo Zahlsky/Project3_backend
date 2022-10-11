@@ -27,7 +27,12 @@ My partners were Arianna Giordano and Flora Stocks.
 - MUI
 - cloudinary-React
 
-**Packages**
+**Backend:**
+- MongoDB
+- Express
+- Node
+
+**Packages:**
 
 - nodemon
 - JsonWebToken
@@ -51,7 +56,7 @@ My partners were Arianna Giordano and Flora Stocks.
 
 ## Project Brief
 
-Project #3: Reacathon
+Project #3:
 ​
 
 ​
